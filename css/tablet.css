@@ -1,0 +1,23 @@
+.product-cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 5px;
+}
+.plans-container__slider {
+  justify-content: center;
+}
+.plans-container__slider::-webkit-scrollbar {
+  display: none;
+}
+.main__table-container {
+  justify-content: center;
+  gap: 5%;
+}
+.main__table-orange {
+  margin-left: 0;
+}
+.main__table-blue {
+  margin-right: 0;
+}
